@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins,sans-serif;
+    box-sizing: border-box ;
+}
+
+nav{
+    margin: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+    width: 100%;
+    
+}
+header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:  white;
+     padding-left: 780px;
+    font-size: 40px;
+    font-weight: 800;
+}
+#cont{
+  display: inline-block;
+  justify-content: space-between;
+  padding-left: 450px;
+ 
+}
+body{
+    background-color: black;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/175/524/956/digital-digital-art-artwork-fantasy-art-drawing-hd-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.btn{
+    padding-left: 80px;
+    padding-right: 20px;
+    
+}
+#content{
+    display: flex;
+    justify-content: space-between;
+    margin: 8%;
+    padding-top: 180px;
+}
+#des{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif,sans-serif;
+    padding-top: 150px;
+    padding-right: 70px;
+
+}
+#phto{
+    padding-left: 20px;
+}
+#edu{
+    margin: 8%;
+ padding-top: 3px;
+}
+table{
+    width: 78%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 90px;
+    
+}
+table tr td{
+    padding-left: 108px;
+    padding-top: 15px;
+    font-size: 21px;
+}
+table  tr th{
+    padding-left: 80px;
+    font-size: 28px;
+    color: chocolate;
+}

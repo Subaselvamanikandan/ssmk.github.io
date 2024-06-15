@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins,sans-serif;
+    box-sizing: border-box ;
+}
+body{
+    background-color: black;
+    background-image: url('https://t4.ftcdn.net/jpg/01/83/50/31/360_F_183503190_yvPtGMNV5pNzC2qTtaIL5VT7aaGGhsqW.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+#header{
+    width: 100%;
+    margin: 10px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 25px;
+    padding: 20px 30px;
+    font-size: x-large;
+
+}
+nav ul li a{
+    color: rgb(19, 192, 134);
+    font-weight:800;
+    text-decoration: none;
+    position: relative;
+    
+}
+nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 4px;
+    background: rgb(243, 171, 219);
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+.bdycontent{
+    padding: 150px 400px;
+    font-style: italic;
+    
+
+}
+.bdycontent h2,h5{
+    font-size:50px;
+    padding: 20px;
+    color: white;
+    
+}
+
+
+.bdycontent p{
+    color: white;
+    padding: 20px 25px;
+    font-size: 40px;
+    font-weight: 900;
+    
+}
+.bdycontent h3{
+    color: rgba(226, 51, 74, 0.829);
+    padding: 20px 55px;
+    font-size: 35px;
+}
+
+
+.bdycontent {
+    overflow:hidden;
+    
+  }
+  
+  .bdycontent > h2  {
+    padding: 0.25rem 1.95rem;
+    height:2.81rem;
+    margin-bottom: 2.81rem;
+    display:inline-block;
+  }
+  
+  .bdycontent h2:first-child {
+    animation: text-animation 4s infinite;
+  }
+  
+ 
+  @keyframes text-animation {
+    0% {margin-left: 0;}
+    10% {margin-left: 0;}
+    20% {margin-left: 5rem;}
+    30% {margin-left: 5rem;}
+    40% {margin-left: 5rem;}
+    60% {margin-left: 5rem;}
+    70% {margin-left: 0rem}
+    80% {margin-left: 0rem;}
+    90% {margin-left: 0;}
+    100% {margin-left: 0;}
+  }
+  
+#foot{
+    display: flex;
+    align-items: center;
+}
+footer{
+    font-size: 20px;
+    padding-left: 700px;
+    font-weight: 800;
+}
+
+span{
+    color: rgba(255, 145, 0, 0.993);
+    font-size: 50px;
+}
